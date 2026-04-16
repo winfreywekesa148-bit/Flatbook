@@ -21,7 +21,12 @@ bookStoreTitle.books.forEach((book) => {
     const bookImage = document.createElement('img');
     bookImage.src = bookImage.name;
 
-    
+ bookContainer.appendChild(bookTitle);
+    bookContainer.appendChild(bookAuthor);
+    bookContainer.appendChild(bookImage);
+
+bookList.appendChild(bookContainer);
+
     
 });
 
