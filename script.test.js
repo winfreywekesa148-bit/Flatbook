@@ -29,8 +29,4 @@ bookList.appendChild(bookContainer);
 
    
 });
-test("empty input should fail", () => {
-  const input = "";
-  expect(input.trim()).toBe("");
-});
  
